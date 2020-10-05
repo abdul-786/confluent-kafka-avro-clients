@@ -1,0 +1,23 @@
+{
+  "doc": "Sample schema to help you get started.",
+  "fields": [
+    {
+      "doc": "The int type is a 32-bit signed integer.",
+      "name": "OrderId",
+      "type": "int"
+    },
+    {
+      "doc": "The double type is a double precision (64-bit) IEEE 754 floating-point number.",
+      "name": "OrderPrice",
+      "type": "double"
+    },
+    {
+      "doc": "The string is a unicode character sequence.",
+      "name": "OrderDesc",
+      "type": "string"
+    }
+  ],
+  "name": "value_avro_topic",
+  "namespace": "com.mycorp.mynamespace",
+  "type": "record"
+}
